@@ -1,0 +1,265 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', serif;
+}
+
+.nav {
+    background-color: white;
+    color: black;
+    list-style: none;
+    text-align: right;
+    padding: 0 0 0 0;
+}
+
+.nav > li {
+    display: inline-block;
+    padding-right: 50px;
+    font-size: 16px;
+    font-family: 'Roboto';
+    
+}
+
+.nav > li > a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.nav > li > a:hover {
+    color: #427EA3
+}
+
+.logo {
+    color: #427EA3;
+    float: left;
+    padding-left: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'PT Sans';
+
+}
+
+.logo > a {
+    text-decoration: none;
+    color: #427EA3
+}
+
+.banner {
+    width: 100%;
+    display: block;
+}
+
+.banner > .banner-image {
+    width: 100%;
+    display: block;
+}
+
+.headline {
+    font-size: 1.7em;
+    margin: 1em auto;
+    width: 90%;
+    font-family: 'PT Sans';
+    font-weight: normal;
+    text-align: center;
+}
+
+.subheadline {
+    font-size: 0.9em;
+    margin: 1em auto;
+    width: 90%;
+    font-family: 'Roboto';
+    font-weight: lighter;
+    text-align: center;
+    color: rgb(72, 96, 112);
+
+}
+
+.body1 {
+    width: 100%;
+    height: 200px;
+}
+
+.content1 {
+    width: 40%;
+    padding-left: 120px;
+    font-family: 'Roboto';
+    float: left;  
+}
+
+.subheader1 {
+    color: #53c2bf;
+    font-family: 'PT Sans';
+    font-weight: normal;
+    font-size: 26px;
+}
+
+.paragraph1 {
+    color: #07263bff; 
+    text-align: justify; 
+}
+
+.img1 {
+    width: 35%;
+    float: right;
+    margin-left: 30px;
+    alt: "image";
+    padding-right: 120px;
+}
+
+
+.body2 {
+    width: 100%;
+    height: 200px;
+}
+
+.content2 {
+    width: 40%;
+    padding-right: 120px;
+    font-family: 'Roboto';
+    float: right;
+}
+.subheader2 {
+    color: #53c2bf;
+    font-family: 'PT Sans';
+    font-weight: normal;
+    font-size: 26px;
+}
+.paragraph2 {
+    color: #07263bff; 
+    text-align: justify; 
+    font-family: 'Roboto';
+}
+
+.img2 {
+    width: 35%;
+    float: left;
+    margin-right: 40px;
+    alt: "image";
+    padding-left: 120px; 
+}
+
+
+.demovideo {
+    height: 500px;
+    width: 500px;
+    float: left;
+    border: 0;
+    margin-right: 40px;
+    padding-left: 120px;
+}
+
+@media screen and (max-width: 896px) {
+    .subheader1 {
+    
+        font-family: 'Roboto';
+        font-weight: normal;
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .content1 {
+        width: fit-content;
+        padding-right: 40px;
+        padding-left: 40px;
+        font-family: 'Roboto';
+        padding-bottom: 20px;  
+    }
+
+    .img1 {
+        width: 80%;
+        alt: "image";
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 40px;
+
+    }
+
+    .subheader2 {
+        
+        font-family: 'Roboto';
+        font-weight: normal;
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .content2 {
+        width: fit-content;
+        padding-right: 40px;
+        padding-left: 40px;
+        font-family: 'Roboto';  
+        padding-bottom: 20px;
+    }
+
+    .img2 {
+        width: 80%;
+        alt: "image";
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 40px;
+
+    }
+
+    .demovideo {
+        width: 80%;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 40px;
+        
+    }
+    .nav > li {
+        display: inline-block;
+        padding-right: 40px;
+        font-size: 13px;
+        font-family: 'Roboto';
+    }
+
+    .logo {
+        color: #427EA3;
+        float: left;
+        padding-left: 40px;
+        font-size: 16px;
+        font-weight: bold;
+        font-family: 'PT Sans';
+    }
+}
+
+
+
+.fbbody1 {
+    width: 100%;
+    height: 200px;
+}
+
+.fbcontent1 {
+    margin: 1em auto;
+    width: 60%;
+    font-weight: normal;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+
+.fbsubheader1 {
+    color: #32478b;
+    font-family: 'PT Sans';
+    font-weight: normal;
+    font-size: 26px;
+}
+
+.fbparagraph1 {
+    color: #07263bff; 
+    font-family: 'Roboto';
+    text-align: justify;
+}
+
+.fbimg1 {
+    width: 25%;
+    alt: "image";
+    margin: 1em auto;
+    font-weight: normal;
+    text-align: center;
+    padding-left: 37.5%;
+    padding-right: 37.5%;
+}

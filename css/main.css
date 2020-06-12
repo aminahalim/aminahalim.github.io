@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+body, html {
+  font-family: 'Roboto';
+  margin: 0;
+}
+
+body a, html a {
+  text-decoration: none;
+}
+
+header {
+  padding: 10 em;
+  margin-left: 6.5em;
+  margin-right: 2em;
+}
+
+
+
+.banner {
+  width: 100%;
+  display: block;
+}
+
+.title2 {
+  position: absolute;
+  top: 1.4em;
+  left: 1.5em;
+  font-weight: normal;
+  font-family: 'PT Sans';
+  font-size: 4em;
+  color: #427EA3;
+
+}
+
+.bio2 {
+  font-family: 'PT Sans';
+  font-size: 1.2em;
+  line-height: 1.5em;
+  position: absolute;
+  left: 97.5px;
+  top: 165px;
+  color: rgb(85, 111, 128);
+  
+}
+
+.banner > .banner-image {
+  width: 100%;
+  display: block;
+}
+
+section {
+  padding: 4em;
+}
+
+h1 {
+  font-size: 1.7em;
+  margin: 1em auto;
+  width: 90%;
+  font-family: 'PT Sans';
+  font-weight: normal;
+}
+.nav {
+  background-color: white;
+  color: black;
+  list-style: none;
+  text-align: right;
+  padding: 0 0 0 0;
+}
+
+.nav > li {
+  display: inline-block;
+  padding-right: 50px;
+  font-size: 16px;
+  font-family: 'Roboto';
+  
+}
+
+.nav > li > a {
+  text-decoration: none;
+  color: #022245;
+
+}
+
+.nav > li > a:hover {
+  color: #427EA3
+}
+
+.project1 {
+  height: 290px;
+
+}
+.project-title {
+  max-width: 1000px;
+}
+.thumbnails img {
+  max-width: 520px;
+  width: 520px;
+  float: left;
+  margin-right: 40px;
+}
+.project-btn {
+  height: 40px; 
+  width: 150px; 
+  font-family: 'PT Sans'; 
+  font-size: 14px; 
+  background-color: #427EA3; 
+  border: none; 
+  color: white; 
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 1030px) {
+  header {
+    padding: 10 em;
+    margin-left: 2em;
+    margin-right: 2em;
+    text-align: center;
+  }
+  
+  header .title {
+    line-height: 0.4em;
+    padding-top: 3em;
+    text-align: center;
+  }
+  
+
+
+  .nav > li {
+    display: inline-block;
+    font-size: 14px;
+    font-family: 'Roboto';
+    
+  }
+
+  .title2 {
+    padding-top: 1.2em;
+    font-weight: normal;
+    width: 40%;
+    font-size: 2em;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    color: rgb(85, 111, 128);
+  }
+  
+  .bio2 {
+    visibility: hidden; 
+  }
+
+  .project1 {
+    height: fit-content;
+    align-items: center;
+    padding-bottom: 20px;
+    max-width: 550px;
+  }
+  
+  .thumbnails img {
+    width: 100%;
+    padding-right:auto;
+    padding-left: auto;
+    display: block;
+  }
+  .project-title {
+    width: 70%;
+    padding-right: 15%;
+    padding-left: 15%;
+    text-align: center;
+    font-size: 140%;
+  }
+    
+  .project-btn {
+    height: 35px; 
+    max-width: 30%; 
+    min-width: 120px;
+    font-family: 'PT Sans'; 
+    font-size: 14px; 
+    background-color: #427EA3; 
+    border: none; 
+    color: white; 
+    border-radius: 5px;
+    align-items: center;
+    margin-left: 35%;
+    margin-right: 35%;
+  }
+  
+}
